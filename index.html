@@ -1,14 +1,62 @@
 <!doctype html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A practical finance calculator to help you understand your finances better.">
     <title>Practical Finance Calculator</title>
-  </head>
-  <body>
-    <h1>Practical Finance Calculator</h1>
-    <p>This side panel is enabled on all sites</p>
-    <button id="start-button">Start Workout</button>
-    <button id="end-button">End Workout</button>
-    <div id="workout-container"></div>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo">Practical Finance Calculator</a>
+
+            <button class="navbar-toggle" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+            </button>
+
+            <ul class="navbar-menu">
+                <li><a href="index.html" class="navbar-link">Home</a></li>
+                <li><a href="full-inputs.html" class="navbar-link">Full Inputs</a></li>
+                <li><a href="wage-imputed.html" class="navbar-link">Wage Imputed</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-container">
+        <h1>Practical Finance Calculator</h1>
+        <section class="content-section" id="disclaimer">
+            <h2>Disclaimer</h2>
+            <p>This calculator is provided for educational and informational purposes only. It is not financial advice. Results are estimates and may not reflect your actual financial situation. Please consult with a qualified financial advisor before making important financial decisions.</p>
+        </section>
+
+        <section class="content-section" id="how-to-full-inputs">
+            <h2>How to Use: Full Inputs</h2>
+            <p>The Full Inputs calculator allows you to enter detailed information about your income, expenses, and financial goals. This comprehensive approach gives you the most accurate picture of your financial health.</p>
+            <a href="full-inputs.html" class="button">Go to Full Inputs</a>
+        </section>
+
+        <section class="content-section" id="how-to-wage-imputed">
+            <h2>How to Use: Wage Imputed</h2>
+            <p>The Wage Imputed calculator is a simplified version that estimates your finances based on your hourly wage. Use this when you want a quick calculation without detailed expense tracking.</p>
+            <a href="wage-imputed.html" class="button">Go to Wage Imputed</a>
+        </section>
+
+        <section class="content-section" id="about">
+            <h2>About</h2>
+            <p>The Practical Finance Calculator is designed to help you take control of your finances with clear, straightforward tools. Whether you're planning a budget, tracking expenses, or exploring financial scenarios, this calculator makes it easy to understand your money.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2026 Practical Finance Calculator. All rights reserved.</p>
+        </div>
+    </footer>
     <script src="index.js"></script>
-  </body>
+</body>
+
 </html>
